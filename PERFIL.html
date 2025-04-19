@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            rel="stylesheet"
+        />
+
+        <link
+            rel="shortcut icon"
+            href="midia/favicon_bm.png"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="estilos/style.css" />
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>aespa Brasil</title>
+        <link rel="canonical" href="index.html">
+        <meta name="author" content="Carlos Alberto Leão Pinheiro">
+        <meta name="email" content="kpopbrasil0325@gmail.com">
+        <meta name="description" content="aespa Brasil: tudo sobre o grupo k-pop da SM Entertainment! Notícias, hits, álbuns completos, perfis das integrantes (Karina, Giselle, Winter, Ningning), fotos e muito mais. Fique por dentro do aespa!">
+        <meta name="keywords" content="aespa, aespa Brasil, Karina, Giselle, Winter, Ningning, SM Entertainment, K-pop, grupo k-pop, notícias aespa, álbum aespa, integrantes aespa, fotos aespa">
+    
+        
+        <style></style>
+
+    </head>
+
+    <body>
+        <header>
+            <div class="video-container">
+                
+                <video id="intro-video" autoplay muted>
+                <source src="midia/aespa_HEADER.webm" type="video/webm">
+                    Seu navegador não suporta o elemento de vídeo.
+                </video>
+                <button id="sound-toggle" class="sound-button" title="Ativar/Desativar som">🔇</button>
+
+
+                <img id="substitute-image" src="midia/aespa head foto.jpg" alt="Imagem substituta">
+            
+        </div>
+        </header>
+
+        <!-- <div id="scriptmenu"> -->
+        <div id="fixo">
+            <div id="menu">
+                <nav>
+                    <a href="index.html">HOME</a>
+                    <a href="album.html">ALBUM</a>
+                    <a href="PERFIL.html">PERFIL</a>
+                    <a
+                        href="https://br.pinterest.com/search/pins/?q=%22BABYMONSTER%22%20GRUPO&rs=typed"
+                        id="fotos"
+                        target="_blank"
+                    >
+                        FOTOS
+                    </a>
+                    <a 
+                        href="https://www.ygfamily.com/en/artists/babymonster/concert"
+                        target="_blank"
+                    >
+                        EVENTOS
+                    </a>
+                    <a id="produtos" href="#">PRODUTOS</a>
+                </nav>
+            </div>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                  var produtosLink = document.getElementById('produtos');
+                  produtosLink.addEventListener('click', function(event) {
+                    event.preventDefault(); // Impede o link de navegar
+                    alert('OS PRODUTOS AINDA NÃO ESTÃO DISPONÍVEIS!');
+                  });
+                });
+              </script>
+
+        </div>
+        <!--  </div> -->
+
+        <!-- Lista escondida inicialmente -->
+        <ul id="lista-fotos" style="display: none">
+            <li>
+                <a href="https://link-externo-ahyeon.com" target="_blank">
+                    AHYEON
+                </a>
+            </li>
+            <li>
+                <a href="https://link-externo-asa.com" target="_blank">ASA</a>
+            </li>
+            <li>
+                <a href="https://link-externo-chiquita.com" target="_blank">
+                    CHIQUITA
+                </a>
+            </li>
+            <li>
+                <a href="https://link-externo-pharita.com" target="_blank">
+                    PHARITA
+                </a>
+            </li>
+            <li>
+                <a href="https://link-externo-rami.com" target="_blank">RAMI</a>
+            </li>
+            <li>
+                <a href="https://link-externo-rora.com" target="_blank">RORA</a>
+            </li>
+            <li>
+                <a href="https://link-externo-ruka.com" target="_blank">RUKA</a>
+            </li>
+        </ul>
+
+        <div id="centro">
+            <main>
+                <section id="perfil">
+                    <div id="perfil-karina" class="perfil karina">
+                        <h2>KARINA</h2>
+                        <p class="brasil">Br => karinaa</p>
+            
+                        <div id="karina" class="grupo">
+                            <p>Nome: Yu Ji-min</p>
+                            <p>Nome Artístico: Karina (카리나)</p>
+                            <p>Nascimento: <span id="karina-dataNascimento">11/04/2000</span></p>
+                            <p>Idade: <span id="karina-idade">25</span> anos</p>
+                            <p>Aniversário: 11 de Abril</p>
+                            <p>Origem: Coreia do Sul</p>
+                            <p>Carreira: Líder, dançarina principal, rapper líder, vocalista central e visual do aespa. Antes de sua estreia, apareceu no MV de "Want" do Taemin (SHINee) e em um showcase virtual com Kai (EXO). É conhecida por sua presença de palco e habilidades versáteis.</p>
+                            <a href="https://www.instagram.com/karina.aespa_/" target="_blank" class="insta">INSTAGRAM NÃO OFICIAL</a>
+                        </div>
+                    </div>
+                </section>
+            
+                <section id="perfil">
+                    <div id="perfil-giselle" class="perfil giselle">
+                        <h2>GISELLE</h2>
+                        <p class="brasil">Br => gizeelle</p>
+            
+                        <div id="giselle" class="grupo">
+                            <p>Nome: Uchinaga Aeri</p>
+                            <p>Nome Artístico: Giselle (지젤)</p>
+                            <p>Nascimento: <span id="giselle-dataNascimento">30/10/2000</span></p>
+                            <p>Idade: <span id="giselle-idade">24</span> anos</p>
+                            <p>Aniversário: 30 de Outubro</p>
+                            <p>Origem: Japão/Coreia do Sul (ascendência coreana)</p>
+                            <p>Carreira: Rapper principal e sub-vocalista do aespa. É fluente em coreano, japonês e inglês. Treinou por um período relativamente curto antes de sua estreia. É apreciada por seu estilo de rap único e charme.</p>
+                            <a href="https://www.instagram.com/aerichandesu/" target="_blank" class="insta">INSTAGRAM NÃO OFICIAL</a>
+                        </div>
+                    </div>
+                </section>
+            
+                <section id="perfil">
+                    <div id="perfil-winter" class="perfil winter">
+                        <h2>WINTER</h2>
+                        <p class="brasil">Br => uinter</p>
+            
+                        <div id="winter" class="grupo">
+                            <p>Nome: Kim Min-jeong</p>
+                            <p>Nome Artístico: Winter (윈터)</p>
+                            <p>Nascimento: <span id="winter-dataNascimento">01/01/2001</span></p>
+                            <p>Idade: <span id="winter-idade">24</span> anos</p>
+                            <p>Aniversário: 1 de Janeiro</p>
+                            <p>Origem: Coreia do Sul</p>
+                            <p>Carreira: Vocalista principal, dançarina líder e visual do aespa. É conhecida por suas fortes habilidades vocais e presença cativante. Também faz parte do supergrupo feminino da SM Entertainment, GOT the Beat.</p>
+                            <a href="https://www.instagram.com/imwinter/" target="_blank" class="insta">INSTAGRAM NÃO OFICIAL</a>
+                        </div>
+                    </div>
+                </section>
+            
+                <section id="perfil">
+                    <div id="perfil-ningning" class="perfil ningning">
+                        <h2>NINGNING</h2>
+                        <p class="brasil">Br => nining</p>
+            
+                        <div id="ningning" class="grupo">
+                            <p>Nome: Ning Yizhuo (宁艺卓)</p>
+                            <p>Nome Artístico: Ningning (닝닝)</p>
+                            <p>Nascimento: <span id="ningning-dataNascimento">23/10/2002</span></p>
+                            <p>Idade: <span id="ningning-idade">22</span> anos</p>
+                            <p>Aniversário: 23 de Outubro</p>
+                            <p>Origem: China</p>
+                            <p>Carreira: Vocalista principal e maknae (a mais jovem) do aespa. É reconhecida por sua voz poderosa e alcance vocal impressionante. Foi a última integrante a ser revelada antes da estreia do grupo.</p>
+                            <a href="https://www.instagram.com/_riimning02/" target="_blank" class="insta">INSTAGRAM NÃO OFICIAL</a>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+
+
+
+ 
+        <script src="script/video_cabecalho.js"></script>
+        <script src="script/barra_de_menus.js"></script>
+        <script src="script/caixa_explicacao.js"></script>
+        <script src="script/calc_idade.js"></script>
+        <script src="script/mouse_magico.js"></script>
+
+        
+    </body>
+
+    <footer>
+        <a
+            href="https://www.youtube.com/@BABYMONSTER"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <img
+                src="https://yg-babymonster-official.jp/wp/wp-content/themes/babymonster/dist/images/common/icon/youtube.svg"
+                alt="YouTube"
+                width="41"
+                height="40"
+                loading="lazy"
+            />
+        </a>
+
+        <a
+            href="https://www.instagram.com/babymonster_ygofficial/"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <img
+                src="https://yg-babymonster-official.jp/wp/wp-content/themes/babymonster/dist/images/common/icon/instagram.svg"
+                alt="Instagram"
+                width="41"
+                height="40"
+                loading="lazy"
+            />
+        </a>
+
+        <a
+            href="https://www.tiktok.com/@babymonster_yg_tiktok"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <img
+                src="https://yg-babymonster-official.jp/wp/wp-content/themes/babymonster/dist/images/common/icon/tiktok.svg"
+                alt="TikTok"
+                width="41"
+                height="40"
+                loading="lazy"
+            />
+        </a>
+
+        <a
+            href="https://www.facebook.com/BABYMONSTER.ygofficial/"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <img
+                src="https://yg-babymonster-official.jp/wp/wp-content/themes/babymonster/dist/images/common/icon/facebook.svg"
+                alt="Facebook"
+                width="41"
+                height="40"
+                loading="lazy"
+            />
+        </a>
+
+        <a
+            href="https://x.com/YGBABYMONSTER_"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <img
+                src="https://yg-babymonster-official.jp/wp/wp-content/themes/babymonster/dist/images/common/icon/x.svg"
+                alt="X"
+                width="41"
+                height="40"
+                loading="lazy"
+            />
+        </a>
+
+        <h5>
+            <p>
+                Site Oficial:
+                <a
+                    href="https://www.ygfamily.com/en/artists/babymonster/main"
+                    target="_blank"
+                >
+                    YG Entertainment
+                </a>
+            </p>
+
+            <p>
+                <p>Site Oficial: <a href="https://www.smtown.com/artist/view/76" target="_blank">SM Entertainment</a></p>
+                <p>Site Oficial JAPONÊS: <a href="https://aespa-official.jp/" target="_blank">aespa Japan Official</a></p>
+            
+            <p>SITE CRIADO POR: C. A. L. PINHEIRO.</p>
+            <p>kpopbrasil0325@gmail.com</p>
+        </h5>
+    </footer>
+</html>
