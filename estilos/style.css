@@ -476,11 +476,13 @@ header > h1 {
 /*********************** configuração do HOME ***********************/
 
 article {
-    background-color: rgba(255, 255, 255, 0.250);
+    background-color: rgba(255, 255, 255, 0.61);
     padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.534);
     }
+
+
 
 div#artigo{
     padding: 10px;
@@ -656,7 +658,7 @@ div#centro{
 }
 
 div#artigo{
-    background-color: rgba(255, 255, 255, 0.466);
+    background-color: rgba(255, 255, 255, 0.596);
     border-radius: 10px;
     box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.397);
 }
@@ -675,9 +677,9 @@ main {
     gap: 10px; /* Adiciona espaçamento entre os itens */
 }
 
-main.homemain {
-    background-color: rgba(221, 143, 217, 0.682);
-}
+/* main.homemain {
+    background-color: rgba(142, 21, 212, 0.37);
+} */
 
 
 
@@ -766,14 +768,40 @@ footer, footer a {
 
 /****************************** CONFIGURAÇÃO DO PERFIL********************************/
 
-div.grupo p{
-    margin: 5px;
-/*     text-shadow: 0px 0px 3px rgb(0, 0, 0); */
-    font-weight: bolder;
-   /*  color: var(--cor2); */
-   color: white;
+
+div.perfil {
+    width: 375px;
+    height: 600px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: auto;
+    background-attachment: scroll;
+    position: relative; /* Adicionado */
+    /* margin: 10px; */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.452);
+    z-index: 10;
     
 }
+
+
+div.grupo {
+    
+    position: absolute; /* Adiciona posicionamento absoluto */
+    bottom: 5px;      /* Define a distância de 10px da parte inferior */
+    left: 5px;        /* Opcional: alinha à esquerda com a margem */
+    right: 5px;       /* Opcional: alinha à direita com a margem */
+
+    margin: 5px;
+    padding: 8px;
+    border-radius: 10px;
+    background: #00000085;
+
+    font-weight: normal;
+    color: white;
+  
+  }
+  
 
 div > h2{
     margin: 5px;
@@ -814,32 +842,17 @@ section#perfil div{
 
 }
 
-div.ahyeon { background-image: url('../midia/BABYMONSTERS_PERFIL_BG_AHYEON3.jpg');}
-div.asa { background-image: url('../midia/BABYMONSTERS_PERFIL_BG_ASA.png');}
-div.chiquita { background-image: url('../midia/BABYMONSTERS_PERFIL_BG_CHIQUITA.png');}
-div.pharita { background-image: url('../midia/BABYMONSTERS_PERFIL_BG_PHARITA.png');}
-div.rami { background-image: url('../midia/BABYMONSTERS_PERFIL_BG_RAMI.png');}
-div.rora { background-image: url('../midia/BABYMONSTERS_PERFIL_BG_RORA.png');}
-div.ruka { background-image: url('../midia/BABYMONSTERS_PERFIL_BG_RUKA.png');}
+div.karina { background-image: url('../midia/aespa_PERFIL_BG_karina.jpg');}
+div.giselle { background-image: url('../midia/aespa_PERFIL_BG_giselle.jpg');}
+div.winter { background-image: url('../midia/aespa_PERFIL_BG_winter.jpg');}
+div.ningning { background-image: url('../midia/aespa_PERFIL_BG_ningning.jpg');}
 
 
 
 
 
-div.perfil {
-    width: 375px;
-    height: 600px;
-    border-radius: 10px;
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: auto;
-    background-attachment: scroll;
-    position: relative; /* Adicionado */
-    /* margin: 10px; */
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.452);
-    z-index: 10;
-    
-}
+
+
 
 div#ahyeon a{color: #a82f9e;}
 div#ahyeon a:hover{color: var(--cor1)}
