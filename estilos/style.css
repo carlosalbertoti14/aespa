@@ -780,7 +780,7 @@ div.perfil {
     position: relative; /* Adicionado */
     /* margin: 10px; */
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.452);
-    z-index: 10;
+   /*  z-index: 10; */
     
 }
 
@@ -837,7 +837,7 @@ p.brasil{
 
 section#perfil div{
     display: block;
-    z-index: 10;
+    /* z-index: 10; */
    
 
 }
