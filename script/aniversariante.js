@@ -5,13 +5,11 @@ document.addEventListener("DOMContentLoaded", function () {
     let encontrouAniversariante = false;
 
     const nivernome = [
-        { nome: "Ahyeon", url: "url('midia/BABYMONSTERS_PERFIL_BG_AHYEON3.jpg')" },
-        { nome: "Asa", url: "url('midia/BABYMONSTERS_PERFIL_BG_ASA.png')" },
-        { nome: "Chiquita", url: "url('midia/BABYMONSTERS_PERFIL_BG_CHIQUITA.png')" },
-        { nome: "Parita", url: "url('midia/BABYMONSTERS_PERFIL_BG_PHARITA.png')" },
-        { nome: "Rami", url: "url('midia/BABYMONSTERS_PERFIL_BG_RAMI.png')" },
-        { nome: "Rora", url: "url('midia/BABYMONSTERS_PERFIL_BG_RORA.png')" },
-        { nome: "Ruka", url: "url('midia/BABYMONSTERS_PERFIL_BG_RUKA.png')" }
+        { nome: "WINTER", url: "url('midia/aespa_PERFIL_BG_winter.jpg')" },
+        { nome: "KARINA", url: "url('midia/aespa_PERFIL_BG_karina.jpg')" },
+        { nome: "NINGNING", url: "url('midia/aespa_PERFIL_BG_ningning.jpg')" },
+        { nome: "GISELLE", url: "url('midia/aespa_PERFIL_BG_giselle')" },
+
     ];
 
 

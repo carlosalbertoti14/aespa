@@ -23,7 +23,7 @@ document.addEventListener('click', function (event) {
         gifElement.style.left = `${cliqueX - offsetX}px`;
         gifElement.style.top = `${cliqueY - offsetY}px`;
   
-        setTimeout(() => gifElement.remove(), 1500);
+        setTimeout(() => gifElement.remove(), 1200); //tempo em que o gif de clique é executado
     };
   
     gifElement.onerror = function () {
