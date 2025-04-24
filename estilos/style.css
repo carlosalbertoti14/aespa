@@ -84,16 +84,17 @@ h5{
   
   .entrevista {
     /* Remova position: absolute; */
-    margin-right: 20px; /* Espaço entre a imagem e o texto */
+   /*  margin-right: 20px; */ /* Espaço entre a imagem e o texto */
     /* Outros estilos da div da imagem */
   }
   
   .entrevista img {
     background-color: white;
-    padding: 5px;
+   /*  padding: 5px; */
     height: auto;
     display: block;
-    max-width: 600px; /* Defina uma largura máxima para a imagem */
+    margin-top: 10px;
+    /* max-width: 600px; */ /* Defina uma largura máxima para a imagem */
     width: 100%; /* Garante que a imagem não ultrapasse a largura do pai */
   }
 
@@ -307,6 +308,7 @@ transition: opacity 0.5s ease-in-out; /* Adiciona uma transição suave para a o
 
 
 
+
 /****************************CONFIG ANIVERSARIO*************************/
 
 /* ... seu CSS anterior ... */
@@ -387,7 +389,11 @@ div#DIVniver img {
 
 
 /* Aumenta espaço apenas na última imagem */
+
+
+
 div#DIVniver img:last-child {
+    
     margin-bottom: 0;
 }
 
@@ -395,6 +401,98 @@ div#DIVniver img:last-child {
 
 /****************************FIM DA CONFIG ANIVERSARIO*************************/
 
+/************************************VEIJAO TAMBEM***************************/
+
+div.centrospan {
+    display: flex;
+
+}
+
+div.centrospan h2 {
+   color: white;
+   font-size: 2em;
+
+}
+
+div#vejatbm{
+    background-color: rgb(218, 136, 190);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 7px black ;
+
+}
+
+div#vejatbm img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 7px black ;
+
+}
+
+.imagem-container {
+    position: relative; /* Contêiner para o posicionamento absoluto */
+    width: 100%; /* Opcional: ajuste a largura conforme necessário */
+   
+    margin: 0 auto; /* Opcional: centralizar o contêiner */
+  }
+  
+  .imagem-container img {
+    position: absolute; /* Permite sobrepor as imagens */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    /* A opacidade inicial será controlada para cada imagem */
+  }
+  
+  .imagem-container .imagem-estatica {
+    opacity: 1; /* Sempre visível */
+    z-index: 1; /* Garante que esteja abaixo da imagem animada inicialmente */
+  }
+  
+  .imagem-container .imagem-animada {
+    opacity: 0; /* Inicialmente invisível */
+    z-index: 2; /* Fica por cima da imagem estática */
+    transition: opacity 10s ease-in-out; /* Transição suave de opacidade em 10 segundos */
+    animation: cicloOpacidade 20s infinite; /* Animação para controlar os tempos de visibilidade */
+  }
+  
+  @keyframes cicloOpacidade {
+    0% {
+      opacity: 0; /* Começa invisível */
+    }
+    40% {
+      opacity: 0; /* Fica totalmente visível após 10 segundos (devido à transição) */
+    }
+    50% {
+        opacity: 1; /* Começa a desaparecer nos próximos 10 segundos (devido à transição no reinício do ciclo) */
+      }
+    90% {
+        opacity: 1; /* Começa a desaparecer nos próximos 10 segundos (devido à transição no reinício do ciclo) */
+    }
+
+  }
+
+  /* animação do texto */
+
+  .texto-animado-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3; /* Maior que a imagem animada */
+    text-align: center;
+}
+
+.texto-animado {
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    animation: fadeInOut 4s infinite;
+}
+  
+
+/*******************************FIM DA VEIJAO TAMBEM*************************/
 video {
     width: 100%; /* Faz com que o vídeo acompanhe a largura da tela */
     height: auto; /* Mantém a proporção do vídeo */
