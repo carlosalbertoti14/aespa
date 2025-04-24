@@ -475,13 +475,20 @@ div#vejatbm img{
 
   /* animação do texto */
 
-  .texto-animado-container {
-    position: absolute;
+  .imagem-container {
+    position: relative; /* Garante que elementos filhos usem essa referência */
+    width: 100%; 
+    margin: 0 auto; 
+}
+
+.texto-animado-container {
+    position: absolute; /* Sobrepondo à imagem */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 3; /* Maior que a imagem animada */
+    z-index: 3; /* Superior à imagem animada */
     text-align: center;
+    width: 100%; /* Para garantir que os textos não fiquem cortados */
 }
 
 .texto-animado {
