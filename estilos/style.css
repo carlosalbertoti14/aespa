@@ -6,6 +6,7 @@
     --cor3: #960b2e;
     --cor4: #31062a;
     --cor5: #0e0d0d;
+    --cor6: #a370c5;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-strong: Anton, Boldonse, Rowdies, Alfa Slab One, Archivo Black,;
@@ -36,7 +37,7 @@ h1{
 h2{
     font-family: var(--fonte-padrao);
     color: var(--cor2);
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.644);
+  /*   text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.644); */
     font-size: 2em;
     text-align: center;
 }
@@ -174,6 +175,12 @@ div#ahyeon span a{color: rgb(26, 26, 238)}
 
 
 /****************************CONFIG CARROCEL*************************/
+
+h2#titulocarrocel {
+    /* background-color: antiquewhite; */
+    color: var(--cor6);
+    /* text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.644); */
+}
 
 
 div#mascara_carrocel{
@@ -375,7 +382,7 @@ div#DIVniver {
 div#DIVniver a {
     display: block; /* Faz o link ocupar a largura total */
     text-align: right; /* Alinha o conteúdo (a imagem) à direita */
-    z-index: 999;
+    z-index: 2;
 }
 
 div#DIVniver img {
@@ -411,6 +418,7 @@ div.centrospan {
 div.centrospan h2 {
    color: white;
    font-size: 2em;
+   text-shadow: rgb(255, 255, 255);
 
 }
 
