@@ -829,6 +829,8 @@ div#menu  > nav a:hover {
     opacity: 1;
     visibility: visible;
     transform: translateX(0); /* Desliza o menu para a esquerda para aparecer */
+    overflow-x: hidden;
+
 }
 
 .dropdown-menu ul {
