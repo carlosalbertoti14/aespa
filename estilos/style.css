@@ -674,7 +674,8 @@ div#menu {
 
 div#menu  > nav {
     border: 1px dotted black;
-    width: 800px;
+     max-width: 800px; /* Define a largura máxima para telas maiores */
+    width: 100%; /* Garante que ocupe 100% da largura disponível do pai */
     display: flex;
     justify-content: space-around;
     
