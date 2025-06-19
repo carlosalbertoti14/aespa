@@ -176,10 +176,11 @@ div#ahyeon span a{color: rgb(26, 26, 238)}
 
 /****************************CONFIG CARROCEL*************************/
 
-h2#titulocarrocel {
-    /* background-color: antiquewhite; */
-    color: var(--cor6);
+h3#titulocarrocel {
+    height: auto;
+    color: var(--cor0);
     /* text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.644); */
+    margin: 0px 5px 10px 5px;
 }
 
 
@@ -187,8 +188,45 @@ div#mascara_carrocel{
     background-color: black;
     overflow: hidden;
     width: 100%; 
-    padding: 10px 0 10px 0;
+    padding: 5px 0 5px 0;
 }
+
+
+
+/* link da lista do youtube container-float */
+
+  .container-float {
+    overflow: auto; /* Garante que o container se ajuste ao conteúdo flutuante */
+    background-color: var(--Tcor5);
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+  }
+
+  .container-float a {
+  
+
+  }
+
+  .youtube-icon-float {
+    float: left;
+    margin-right: 5px; /* Espaçamento entre a imagem e o texto */
+    margin-top: 5px;
+    width: 40px;  /* Define a largura do ícone para 32 pixels */
+    height: 30px; /* Define a altura do ícone para 32 pixels */
+  }
+
+  /* Estilos para o seu link e texto existentes */
+  .linkh3 {
+    font-size: 0.8em; /* Exemplo de estilo */
+   color: var(--cor2);
+    text-decoration: none; /* Exemplo de estilo */
+    display: inline; /* Garante que o h4 se comporte como parte do texto */
+  }
+
+
+/* fim link da lista do youtube container-float*/
+
 
 .swiper-container {
     width: 340px; /* Ajuste a largura conforme necessário */
@@ -312,6 +350,7 @@ transition: opacity 0.5s ease-in-out; /* Adiciona uma transição suave para a o
  }
 
 /****************************FIM DA CONFIG CARROCEL*************************/
+
 
 
 
